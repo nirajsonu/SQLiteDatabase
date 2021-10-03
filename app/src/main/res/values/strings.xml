@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CSNotes</string>
+    <string name="title_activity_second">second</string>
+    <string name="todo" />
+</resources>

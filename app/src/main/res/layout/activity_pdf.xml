@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5EDED"
+    tools:context=".pdf">
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/product"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/st"
+        android:gravity="center"
+        android:hint="Produuct ID"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299">
+    </EditText>
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/product_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/st"
+        android:gravity="center"
+        android:hint="Product name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424">
+
+    </EditText>
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/price"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/st"
+        android:gravity="center"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="2"
+        android:background="@drawable/st"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Add Items"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79">
+    </Button>
+
+    <EditText
+        android:id="@+id/product_date"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/st"
+        android:ems="10"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="date"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

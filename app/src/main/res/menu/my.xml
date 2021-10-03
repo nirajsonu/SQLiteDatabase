@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Home"
+        android:icon="@drawable/boo"
+        android:id="@+id/h"
+        app:showAsAction="always"
+        >
+    </item>
+    <item
+        android:title="Home"
+        android:titleCondensed="Homw"
+        android:icon="@drawable/c"
+        android:id="@+id/ho"
+        app:showAsAction="always"
+        >
+    </item>
+    <item
+        android:title="Home"
+        android:icon="@drawable/c"
+        android:id="@+id/he"
+        app:showAsAction="always"
+        >
+    </item>
+
+
+</menu>
